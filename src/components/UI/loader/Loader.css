@@ -1,0 +1,44 @@
+.loader {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    transition: 1s all linear;
+}
+
+.loader_img {
+    display: block;
+    width: 500px;
+    height: 500px;
+    animation: 2s ease-in-out 0s infinite alternate loader;
+}
+
+@keyframes loader {
+    from {
+        transform: translatex(-600px) translatey(700px);
+        
+    }
+
+    to {
+        transform: translatex(1700px) translatey(-400px);
+    }
+}
+
+@keyframes loaderAdaptive {
+    from {
+        transform: translatex(-500px) translatey(700px);
+        
+    }
+
+    to {
+        transform: translatex(1200px) translatey(-400px);
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .loader_img {
+        display: block;
+        width: 300px;
+        height: 300px;
+        animation: 3s ease-in-out 0s infinite alternate loaderAdaptive;
+    }
+}

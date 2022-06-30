@@ -1,38 +1,41 @@
+@font-face {
+  font-family: 'SF Pro Display' ;
+  src: url('../src/fonts/SFProDisplay-Light.ttf');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF Pro Display' ;
+  src: url('../src/fonts/SFProDisplay-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF Pro Display' ;
+  src: url('../src/fonts/SFProDisplay-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF Pro Display' ;
+  src: url('../src/fonts/SFProDisplay-Semibold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display' ;
+  src: url('../src/fonts/SFProDisplay-Bold.ttf');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF Pro Display' ;
+  src: url('../src/fonts/SFProDisplay-Heavy.ttf');
+  font-weight: 900;
+  font-style: normal;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ font-family: 'SF Pro Display', sans-serif;
+ margin: 0 auto;
 }

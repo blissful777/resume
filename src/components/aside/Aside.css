@@ -1,0 +1,47 @@
+#aside {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 200px;
+    transition: 1s all linear;
+}
+
+.aside_big-line-down {
+    position: absolute;
+    top: 300%;
+    width: 80%;
+}
+
+.aside_title {
+    color: var(--color);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.aside__info {
+    display: flex;
+}
+
+.aside__item_title {
+    color: var(--color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #aside {
+        margin-top: 10%;
+    }
+
+    .aside__info {
+        display: block;
+    }
+
+    .aside_big-line-down {
+        display: none;
+    }
+}
