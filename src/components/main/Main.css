@@ -130,7 +130,7 @@ b {
     line-height: 20px;
     color: var(--color);
     text-align: center;
-    width: 50%;
+    width: 90%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -158,6 +158,9 @@ b {
         display: flex;
         margin-top: 5%;
     }
+    .main__education_item-duties {
+        width: 50%;
+    }
 
     .main__education_adaptive-item {
         margin-left: 20%;
@@ -180,7 +183,7 @@ b {
     }
 
     .main__big-line-upper {
-        top: 80%;
+        top: 70%;
     }
 }
 
@@ -249,4 +252,9 @@ b {
     .main__big-line-upper-adaptive {
         display: block;
     }
+
+    .main__education_item-duties {
+        width: 90%;
+    }
+
 }
