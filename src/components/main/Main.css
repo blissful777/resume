@@ -3,7 +3,7 @@
     height: 100%;
     margin: 0 auto;
     box-sizing: border-box;
-    margin-top: 200px;
+    margin-top: 210px;
     display: flex;
     transition: 1s all linear;
 }
@@ -14,14 +14,14 @@
     }
 
     to {
-        margin-top: 10%;
+        margin-top: 5%;
     }
 }
 
 .main__fly-man {
     display: flex;
     justify-content: center;
-    height: 600px;
+    max-height: 400px;
     width: 100%;
     animation: 1.1s infinite alternate upAndDown;
 }

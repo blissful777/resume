@@ -22,6 +22,7 @@
 
 .aside__info {
     display: flex;
+    justify-content: space-between;
 }
 
 .aside__item_title {

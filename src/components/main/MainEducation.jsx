@@ -15,37 +15,13 @@ export default function MainEducation() {
             <div>
             <div className="main__education_item">
                 <span><img className='main__eeducation_item-rectangle' src={educOne} alt="rectangle logo" /></span>
-                <h3 className='main__education_item-city'>Interface Design:<br />Web & Mobile</h3>
-                <p className='main__education_item-duties'>IT-Academy, 2020</p>
+                <h3 className='main__education_item-city'>Frontend Developer</h3>
+                <p className='main__education_item-duties'>Yandex, 2022</p>
             </div>
             <div className="main__education_item">
                 <span><img className='main__eeducation_item-rectangle' src={educTwo} alt="rectangle logo" /></span>
-                <h3 className='main__education_item-city'>Fundamentals of Usability</h3>
-                <p className='main__education_item-duties'>Skillshare, Oct 2018</p>
-            </div>
-            <div className="main__education_item">
-                <span><img className='main__eeducation_item-rectangle' src={educThree} alt="rectangle logo" /></span>
-                <h3 className='main__education_item-city'>CG Artist</h3>
-                <p className='main__education_item-duties'>Polygon CG School, May-Sep 2017</p>
-            </div>
-            </div>
-            
-            <div className='main__education_adaptive-item'>
-            <div className="main__education_item">
-                <span><img className='main__eeducation_item-rectangle' src={educFour} alt="rectangle logo" /></span>
-                <h3 className='main__education_item-city'>Graphic Design</h3>
-                <p className='main__education_item-duties'>Belarusian State Academy of Arts, 2015 - 2017 Postgraduate Diploma</p>
-            </div>
-            <div className="main__education_item">
-                <span><img className='main__eeducation_item-rectangle' src={educFive} alt="rectangle logo" /></span>
-                <h3 className='main__education_item-city'>SEO Specialist</h3>
-                <p className='main__education_item-duties'>ARTOX Media, Jun-Aug 2012</p>
-            </div>
-            <div className="main__education_item">
-                <span><img className='main__eeducation_item-rectangle' src={educSix} alt="rectangle logo" /></span>
-                <h3 className='main__education_item-city'>Information Technology Software</h3>
-                <p className='main__education_item-duties'>Belarusian State University of Informatics and Radioelectronics, 2011 - 2015 Bachelor’s degree</p>
-                <p className='main__education_item-duties'>Polotsk State Economic College, 2007 - 2011 Associate’s degree</p>
+                <h3 className='main__education_item-city'>Frontend Developer</h3>
+                <p className='main__education_item-duties'>Algoritmika, Oct 2021</p>
             </div>
             </div>
             </div>
